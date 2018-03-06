@@ -16,7 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace VVStackPanel
+namespace VVStackPanelPlayground
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,7 +25,6 @@ namespace VVStackPanel
     {
         public MainWindow()
         {
-            IntersectionFinderTests.RunTests();
             InitializeComponent();
             DataContext = new MainVM();
         }

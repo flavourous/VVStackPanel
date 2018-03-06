@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VVStackPanel Testing", "VVStackPanel Testing\VVStackPanel Testing.csproj", "{659D5A8A-D51F-489C-8877-A5B58ED74A7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VVStackPanel Playground", "VVStackPanel Testing\VVStackPanel Playground.csproj", "{659D5A8A-D51F-489C-8877-A5B58ED74A7A}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VVStackPanel", "VVStackPanel\VVStackPanel.shproj", "{EE2E392E-A5EE-4E1F-B8AA-B3727CE6AB0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VVStackPanel.WPF", "VVStackPanel.WPF\VVStackPanel.WPF.csproj", "{7CC102D2-110C-4BE7-B00A-0E03D2A94189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualizingUtils", "VirtualizingUtils\VirtualizingUtils.csproj", "{6CE9C07B-B729-46F5-83A3-999DF8D52B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualizingUtils.Test.NetFW", "VirtualizingUtils.Test.NetFW\VirtualizingUtils.Test.NetFW.csproj", "{0E84A0CE-BE28-49C2-A9B6-DBA8B2AA0A5F}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		VVStackPanel\VVStackPanel.projitems*{ee2e392e-a5ee-4e1f-b8aa-b3727ce6ab0d}*SharedItemsImports = 13
-		VVStackPanel\VVStackPanel.projitems*{659d5a8a-d51f-489c-8877-a5b58ed74a7a}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -21,8 +21,23 @@ Global
 		{659D5A8A-D51F-489C-8877-A5B58ED74A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{659D5A8A-D51F-489C-8877-A5B58ED74A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{659D5A8A-D51F-489C-8877-A5B58ED74A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC102D2-110C-4BE7-B00A-0E03D2A94189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC102D2-110C-4BE7-B00A-0E03D2A94189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC102D2-110C-4BE7-B00A-0E03D2A94189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC102D2-110C-4BE7-B00A-0E03D2A94189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE9C07B-B729-46F5-83A3-999DF8D52B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE9C07B-B729-46F5-83A3-999DF8D52B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE9C07B-B729-46F5-83A3-999DF8D52B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE9C07B-B729-46F5-83A3-999DF8D52B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E84A0CE-BE28-49C2-A9B6-DBA8B2AA0A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E84A0CE-BE28-49C2-A9B6-DBA8B2AA0A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E84A0CE-BE28-49C2-A9B6-DBA8B2AA0A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E84A0CE-BE28-49C2-A9B6-DBA8B2AA0A5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {686F06F0-189D-4C29-9E65-DB7265D739D0}
 	EndGlobalSection
 EndGlobal

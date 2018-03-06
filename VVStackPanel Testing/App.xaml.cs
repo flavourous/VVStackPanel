@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace VVStackPanel
+namespace VVStackPanelPlayground
 {
     /// <summary>
     /// Interaction logic for App.xaml
